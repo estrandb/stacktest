@@ -18,10 +18,19 @@ newstack::newstack(int data, int maxnum)
     stackCount = 1;
 }
 
+//newstack::~newstack(){}
 newstack::~newstack()
 {
-    //dtor
+    while(top->next != NULL)
+    {
+        node* temp = NULL;
+        temp = top->next;
+        top->next = temp->next;
+        delete temp;
+    }
+    delete top;
 }
+
 
 void newstack::newPush(int data)
 {
