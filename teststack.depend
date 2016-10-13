@@ -308,16 +308,22 @@
 	"gtest/gtest-typed-test.h"
 	"gtest/gtest.h"
 
-1476164322 source:/home/sig/projects/teststack/main.cpp
+1476309536 source:/home/sig/projects/teststack/main.cpp
 	<iostream>
 	<cstdlib>
 	<memory>
 	"newstack.h"
+	"gtest/gtest.h"
 
-1476299582 source:/home/sig/projects/teststack/src/newstack.cpp
+1476316390 source:/home/sig/projects/teststack/src/newstack.cpp
 	"newstack.h"
 	<cstddef>
 	<iostream>
 
-1476308092 /home/sig/projects/teststack/include/newstack.h
+1476312111 /home/sig/projects/teststack/include/newstack.h
+
+1476310742 source:/home/sig/src/stacktest.cpp
+	"stacktest.h"
+
+1476310742 /home/sig/projects/teststack/include/stacktest.h
 
